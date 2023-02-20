@@ -7,7 +7,7 @@ import org.springframework.data.repository.query.Param;
 
 public interface UserRepository extends CrudRepository <User, Long> {
 
-    User findByName(String username);
+    User findByUsername(String username);
 
     @Override
     void delete (User user);
