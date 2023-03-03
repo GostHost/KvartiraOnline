@@ -42,5 +42,10 @@ public class HomeController {
         return "license";
     }
 
+    @GetMapping("/serv")
+    public String serv (){
+        return "serv";
+    }
+
 
 }
